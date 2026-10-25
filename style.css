@@ -1,0 +1,146 @@
+/* ===== GENERAL STYLES ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf7f2;
+    color: #3d3028;
+    line-height: 1.6;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #ffffff;
+}
+
+nav h1 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #8b6f5c;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3d3028;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #b58b70;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eee3d8;
+}
+
+.hero h2 {
+    font-size: 52px;
+    margin-bottom: 15px;
+    max-width: 750px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 550px;
+    margin-bottom: 30px;
+    color: #6e5a4b;
+}
+
+/* ===== BUTTONS ===== */
+button,
+.btn {
+    display: inline-block;
+    padding: 13px 30px;
+    background-color: #8b6f5c;
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #6d5140;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    padding: 70px 8%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+/* ===== SERVICES ===== */
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1 1 220px;
+    max-width: 320px;
+    padding: 30px 25px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #e8ded4;
+}
+
+.service-card h3 {
+    margin-bottom: 12px;
+    color: #8b6f5c;
+}
+
+/* ===== ABOUT ===== */
+.about {
+    background-color: #eee3d8;
+    text-align: center;
+}
+
+
+/* ===== CONTACT ===== */
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin-bottom: 12px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #3d3028;
+    color: #ffffff;
+    font-size: 14px;
+}
